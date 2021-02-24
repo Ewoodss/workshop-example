@@ -8,9 +8,20 @@ public class Main {
         System.out.println(mul(12, 12));
         System.out.println(mul(12.0, 12.0));
         mergeConflict("This creates a merge conflict!!");
+        superCooleFunctie();
     }
 
-    public static int sum( int a, int b ) {
+
+    public static void superCooleFunctie()
+    {
+        for (int i = 0; i < 100; i++)
+        {
+            System.out.println("Coolheid laden: " + i + "% cool" );
+        }
+        System.out.println("Coolheid laden Voltooid");
+    }
+
+    public static int sum(int a, int b ) {
         return a+b;
     }
 
